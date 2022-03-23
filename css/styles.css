@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+div.column{
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 0.09rem;
+}
+img {
+    width: 60%;
+    padding-top: 20px;
+}
+ul {
+    list-style: none;
+    padding-top: 15px ;
+    line-height: 30px;
+}
+.fa-brands {
+    padding:20px;
+    font-size: 100px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-github-square {
+    background-color: blue;
+    color: white;    
+}
