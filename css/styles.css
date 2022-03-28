@@ -1,29 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inspiration&family=Neuton:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
+    background-color: aliceblue;
+}
+body {
+    font-family: neuton;
+    font-size: large;
 }
 div.column{
     float: left;
     text-align: center;
     width: 33.3%;
-    padding: 0.09rem;
 }
-img {
-    width: 60%;
-    padding-top: 20px;
+img.header-image {
+    width: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-ul {
+li {
     list-style: none;
-    padding-top: 15px ;
-    line-height: 30px;
+    font-size: larger;
+    font-weight: bolder;
 }
-.fa-brands {
-    padding:20px;
-    font-size: 100px;
-    width: 200px;
+a:link, a:visited { 
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
+    color: #007399
 }
-.fa-github-square {
-    background-color: blue;
-    color: white;    
+a:hover, a:active {
+    color: #007399;
+    text-shadow: 20px;
+  }
+a.fa-brands {
+    font-size: 30px;
+    column-width: 25 px;
+    color: #007399;
+    text-decoration: none;
+    background-color: transparent;
+}
+main {
+    clear: both;
+    padding: 80px;
+}
+p{
+    font-size: 25px;
+}
+div.mainpage-pics{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+img.main-page{
+    width: 300px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: max-content;
+    background-color:#007399;
+    color: white;
+    text-align: center;
+}
+p.photo-des{
+    text-align: center;
 }
