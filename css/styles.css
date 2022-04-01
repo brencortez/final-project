@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inspiration&family=Neuton:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Great+Vibes&family=Inspiration&family=Neuton:wght@300&display=swap');
 * {
     box-sizing: border-box;
     background-color: aliceblue;
@@ -63,12 +63,15 @@ img.main-page{
     margin-right: auto;
 }
 footer{
-    height: 500px;
+    height: 40px;
     width: 100%;
-    height: max-content;
     text-align: center;
+    font-family: arvo;
+    font-size: medium;
     background-color: #007399;
     clear: both;
+    color: beige;
+    padding: 10px
 }
 p.photo-des{
     text-align: center;
