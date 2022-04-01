@@ -9,9 +9,9 @@ body {
     font-size: large;
 }
 div.column{
-    float: left;
+   float: left;
     text-align: center;
-    width: 33.3%;
+    width: 33%;
 }
 img.header-image {
     width: 325px;
@@ -63,14 +63,75 @@ img.main-page{
     margin-right: auto;
 }
 footer{
-    left: 0;
-    bottom: 0;
+    height: 500px;
     width: 100%;
     height: max-content;
-    background-color:#007399;
-    color: white;
     text-align: center;
+    background-color: #007399;
+    clear: both;
 }
 p.photo-des{
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div.container {
+    margin: 20px;
+    border-radius: 10px;
+    background-color:#007399;
+    padding: 40px;
+    font-family: neuton;
+    box-sizing: border-box;
+}
+
+iframe{
+    padding: 20px;
+
+}
+div.gallery {
+    margin: 2px;
+    padding: 10px;
+    border: 5px solid #007399;
+    width: 30%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+      
+div.gallery:hover {
+    border: 2px solid #777;
+}
+      
+div.gallery img {
+    width: 100%;
+    height: auto; 
+}
+      
+div.desc {
+    padding: 15px;
     text-align: center;
 }
